@@ -14,7 +14,7 @@ app.use(express.json())
 app.use(bodyParser.json())
 
 app.get('/', (req, res) => {
-  res.send('This is server site of Green Point app')
+  res.send('This is server site of PetInfo app')
 })
 
 //--------Mongodb--------
